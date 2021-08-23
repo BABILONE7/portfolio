@@ -39,7 +39,7 @@ body{
 
 .banner{
      height: 40rem;
-     background: url(/img/vector.png) no-repeat;
+     background: url(/portfolio/img/vector.png) no-repeat;
      background-position: center;
      background-size: cover;
      z-index: 3;
@@ -115,4 +115,8 @@ body{
 .about p{
     padding: 5px;
     font-size: 30px;
+}
+
+.Education{
+    
 }
