@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Source+Code+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e7e4;
+}
+.navbar{
+    position: relative;
+}
+.navbar ul{
+    list-style: none;
+    text-align: center;
+    background: transparent;
+    height: 80px;
+}
+.navbar li{
+    display: inline-flex;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Assistant', sans-serif;
+}
+
+.navbar li:hover{
+    background-color: #4cc9f0;
+}
+
+.banner{
+     height: 40rem;
+     background: url(/img/vector.png) no-repeat;
+     background-position: center;
+     background-size: cover;
+     z-index: 3;
+}
+
+.banner h1{
+    padding-top: 150px;
+    padding-left: 30px;
+    color: #000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    transition: 0.3s;
+}
+.banner h1:hover{
+    color: #006d77;
+}
+.banner p{
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.banner button{
+    margin-top: 79px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #006d77;
+    color: #fff;
+    transition: 0.3s;
+}
+.banner button:hover{
+    background-color: #83c5be;
+    margin-top: 85px;
+}
+
+.about{
+    position: relative;
+    margin: 39px;
+    display: flex;
+    background-color: #353535;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    border-radius: 20px;
+    height: 600px;
+}
+.about img{
+    position: absolute;
+    border-radius: 20px;
+    left: 200px;
+    filter: grayscale();
+    transition: 0.3s;
+}
+.about img:hover{
+    filter: none;
+}
+.about-title{
+    margin-left: 150px;
+}
+
+.about h1{
+    color: #ff9f1c;
+    text-shadow: #000 3px 7px;
+}
+.about p{
+    padding: 5px;
+    font-size: 30px;
+}
